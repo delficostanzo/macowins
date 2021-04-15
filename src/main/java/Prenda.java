@@ -30,11 +30,11 @@ class Pantalon implements Prenda{
     }
 }
 
-class Liquidacion implements Prenda{
+class Camisa implements Prenda{
     int precioPrenda;
     EstadoPrenda estadoPrenda;
 
-    Liquidacion(int precioPrenda, EstadoPrenda estadoPrenda){
+    Camisa(int precioPrenda, EstadoPrenda estadoPrenda){
         this.precioPrenda = precioPrenda;
         this.estadoPrenda = estadoPrenda;
     }
